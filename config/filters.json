@@ -1,0 +1,32 @@
+{
+ "_readme": "Pre-filters the fetchers apply before Claude reads anything. Have Claude rewrite this from your profile (see README). These example values are for a data/analytics job seeker.",
+ "google_keywords": [
+  "data",
+  "data analyst",
+  "analytics",
+  "business intelligence",
+  "data engineer",
+  "data scientist",
+  "SQL",
+  "BigQuery",
+  "Python",
+  "ETL",
+  "dashboard",
+  "Tableau",
+  "Power BI",
+  "reporting",
+  "database",
+  "automation",
+  "machine learning",
+  "technical solutions"
+ ],
+ "google_levels": [
+  "EARLY",
+  "MID"
+ ],
+ "skill_terms": "\\b(sql|python|tableau|power ?bi|looker|etl|elt|ssrs|bigquery|sql server|database (develop|design|program|admin)\\w*|data (analy|engineer|scien|warehous|model|visuali|pipeline)\\w*|business (intelligence|analyst|analytics)|bi (analyst|developer|engineer)|dashboards?|reporting (analyst|tools?|develop\\w*)|statistical (analys|programm|model)\\w*|machine learning|test automation|automation (engineer|framework)s?|analytics engineer\\w*|(product|marketing|financial|operations|people|sales|risk) analytics)\\b",
+ "emory_skill_terms": "\\b(sql|python|\\bR\\b programming|sas|tableau|power ?bi|etl|elt|database (develop|design|program|admin)\\w*|sql server|oracle|data (analy|engineer|scien|warehous|model|visuali|integration|quality|pipeline|governance)\\w*|analytics|business intelligence|dashboards?|reporting (analyst|tools?|develop\\w*)|reports? (develop|build)\\w*|informatics|bioinformatic\\w*|statistical (analys|programm)\\w*|machine learning|artificial intelligence|\\bAI\\b|automation|epic (clarity|caboodle|cogito|report)\\w*|crystal reports|ssrs)\\b",
+ "skip_internships": true,
+ "skip_if_min_years_at_least": 9,
+ "skip_clearance_or_citizenship": true
+}
